@@ -96,7 +96,7 @@ header img {
 }
 
 header .intro-text .name {
-    display: block;
+    display: inline-block;
     font-family: "American Typewriter",'Cutive',serif;
     font-size: 2em;
 }
