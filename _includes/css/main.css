@@ -102,6 +102,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
+    font-family: "American Typewriter",'Cutive',serif;
     font-size: 1.25em;
     font-weight: 300;
 }
@@ -148,7 +149,6 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
     font-family: "American Typewriter",'Cutive',serif;
 }
 
