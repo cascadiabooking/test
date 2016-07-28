@@ -139,7 +139,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        background: url(img/profile.png);
+        background: url(img/profile.png) no-repeat fixed center;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
