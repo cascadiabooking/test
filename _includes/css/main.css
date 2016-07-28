@@ -25,6 +25,7 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -32,10 +33,6 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-h1 {
-    font-family: "American Typewriter", monospace;
 }
 
 hr.star-light,
