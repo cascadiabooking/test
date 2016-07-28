@@ -265,6 +265,9 @@ section.success {
     }
 }
 
+.btn {
+    border-radius: 0px;
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
