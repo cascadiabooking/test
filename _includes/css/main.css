@@ -139,7 +139,8 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        background: url(img/profile.png) no-repeat;
+        background: #0b3d4c url(img/profile.png) no-repeat center;
+        background-size: contain;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -168,6 +169,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background: #f0b128;
 }
 
 section {
