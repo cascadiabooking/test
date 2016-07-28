@@ -97,8 +97,12 @@ header img {
 
 header .intro-text .name {
     display: block;
-    font-family: "American Typewriter",'Cutive',serif;
+    font-family: 'Cutive',serif;
     font-size: 2em;
+}
+
+header .intro-text .nameb {
+    font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
 }
 
 header .intro-text .skills {
