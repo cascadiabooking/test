@@ -105,6 +105,7 @@ header .intro-text .nameb {
     /*display: block;*/
     font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
     font-size: 2em;
+    font-weight: 100;
 }
 
 header .intro-text .skills {
@@ -126,7 +127,7 @@ header .intro-text .skills {
     
     header .intro-text .nameb {
         font-size: 4.75em;
-        font-weight: 200;
+        font-weight: 100;
     }
 
     header .intro-text .skills {
