@@ -113,6 +113,7 @@ header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
     display:block;
+    color: #0b3d4c;
 }
 
 @media(min-width:768px) {
@@ -127,7 +128,6 @@ header .intro-text .skills {
     
     header .intro-text .nameb {
         font-size: 4.75em;
-        font-weight: 100;
     }
 
     header .intro-text .skills {
