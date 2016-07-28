@@ -148,7 +148,7 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-        color: ##0b3d4c;
+        display: none;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -159,7 +159,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        color: #fff;
+        display: inline-block;
     }
 }
 
