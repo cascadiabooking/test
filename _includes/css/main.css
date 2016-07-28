@@ -102,7 +102,7 @@ header .intro-text .name {
 }
 
 header .intro-text .nameb {
-    display: block;
+    /*display: block;*/
     font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
     font-size: 2em;
 }
@@ -111,6 +111,7 @@ header .intro-text .skills {
     font-family: "American Typewriter",'Cutive',serif;
     font-size: 1.25em;
     font-weight: 300;
+    display:block;
 }
 
 @media(min-width:768px) {
@@ -120,6 +121,10 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
+        font-size: 4.75em;
+    }
+    
+    header .intro-text .nameb {
         font-size: 4.75em;
     }
 
