@@ -82,6 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
+    height: 100vh;
     background: #{{ site.color.primary }};
 }
 
@@ -196,6 +197,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+    text-align: center;
 }
 
 @media(max-width:767px) {
@@ -206,6 +208,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#roster {
+    text-align: center;
 }
 
 #roster .roster-item {
