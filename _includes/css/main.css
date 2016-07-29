@@ -375,8 +375,7 @@ footer .footer-below {
     padding: 25px 0;
     background-color: #{{ site.color.primary }};
     font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .btn-social {
