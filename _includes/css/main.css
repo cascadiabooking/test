@@ -111,7 +111,7 @@ header .intro-text .nameb {
     font-weight: 100;
 }
 
-header .intro-text .skills {
+header .intro-text .tags {
     font-family: "American Typewriter",'Cutive',serif;
     font-size: 1.25em;
     display:block;
@@ -132,7 +132,7 @@ header .intro-text .skills {
         font-size: 4.75em;
     }
 
-    header .intro-text .skills {
+    header .intro-text .tags {
         font-size: 2.75em;
     }
 }
