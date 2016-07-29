@@ -11,6 +11,7 @@ body {
 p {
     font-size: 20px;
     font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 
 p.small {
