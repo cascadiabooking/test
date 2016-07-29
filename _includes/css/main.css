@@ -385,6 +385,7 @@ footer {
 
 footer h3 {
     margin-bottom: 30px;
+	color: #{{ site.color.primary }};
 }
 
 footer .footer-above {
