@@ -37,6 +37,14 @@ h6 {
     font-family: "American Typewriter",'Cutive',serif;
 }
 
+.primary {
+    color:#{{ site.color.primary }};
+}
+
+.secondary
+    color:#{{ site.color.primary }};
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
