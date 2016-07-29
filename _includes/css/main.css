@@ -272,8 +272,15 @@ section.success {
     }
 }
 
+#contactFORM {
+    font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-weight: 200;
+}
+
 .btn {
     border-radius: 0px;
+    font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 .btn:hover {
     background-color: #0b3d4c;
