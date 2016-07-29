@@ -118,6 +118,11 @@ header .intro-text .tags {
     color: #0b3d4c;
 }
 
+.and {
+    color: #fff;
+    font-family: 'Alice';
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
