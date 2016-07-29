@@ -353,6 +353,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
+    font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-weight: 200;
     color: #fff;
 }
 
@@ -371,7 +373,10 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.primary }};
+    font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 100;
 }
 
 .btn-social {
