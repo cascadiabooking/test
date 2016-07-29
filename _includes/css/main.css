@@ -42,7 +42,7 @@ h6 {
 }
 
 .secondary
-    color:#{{ site.color.primary }};
+    color:#{{ site.color.secondary }};
 }
 
 hr.star-light,
