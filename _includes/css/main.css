@@ -118,7 +118,8 @@ header .intro-text .tags {
     color: #0b3d4c;
 }
 
-.and {
+.ampersand {
+    display: inline;
     color: #fff;
     font-family: 'Alice';
 }
