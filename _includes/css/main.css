@@ -122,6 +122,8 @@ header .intro-text .tags {
     display: inline;
     color: #fff;
     font-family: 'Alice';
+    height:35px;
+    margin-top:10px;
 }
 
 @media(min-width:768px) {
@@ -141,6 +143,11 @@ header .intro-text .tags {
     header .intro-text .tags {
         font-size: 2.75em;
     }
+    
+    .ampersand {
+    height:35px;
+    margin-top:10px;
+}
 }
 
 @media(min-width:768px) {
