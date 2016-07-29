@@ -451,6 +451,8 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+	font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 
 .portfolio-modal .modal-content h2 {
