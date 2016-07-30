@@ -82,6 +82,7 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
+	max-width: 50vh;
 }
 
 .img-responsive {
@@ -497,7 +498,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 50px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(45deg);
@@ -508,7 +509,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 50px;
     background-color: #{{ site.color.secondary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
