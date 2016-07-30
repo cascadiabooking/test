@@ -90,10 +90,6 @@ hr.star-primary:after {
 	max-width: 50vh;
 }
 
-.img-responsive {
-	border-radius: 50%;
-}
-
 header {
     text-align: center;
     color: #fff;
