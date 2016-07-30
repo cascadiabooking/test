@@ -56,7 +56,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Portland, Ore.
+  - line: Portland, Ore. // Hamburg, Germany
   - line: 
 
 # Credits content
