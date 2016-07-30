@@ -292,8 +292,8 @@ section.success {
 }
 
 .artist {
-	width: 20vw;
-	height: 20vw;
+	width: 75vw;
+	height: 75vw;
 	margin: 0 auto;
 }
 
@@ -301,6 +301,11 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+	
+	.artist {
+	width: 20vw;
+	height: 20vw;
+}
 }
 
 #contact {
