@@ -243,6 +243,7 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+	height: 100%;
 }
 
 #roster .roster-item .roster-link .caption {
@@ -254,6 +255,7 @@ section.success {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+	border-radius: 50%;
 }
 
 #roster .roster-item .roster-link .caption:hover {
@@ -285,8 +287,9 @@ section.success {
 }
 
 .artist {
-	text-align: -moz-center;
-	text-align: -webkit-center;
+	width: 20vw;
+	height: 20vw;
+	margin: 0 auto;
 }
 
 @media(min-width:767px) {
