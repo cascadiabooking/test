@@ -41,6 +41,11 @@ h6 {
     color:#{{ site.color.primary }};
 }
 
+.nameb {
+	font-family: "Helvetica Neue",'Raleway',Helvetica,Arial,sans-serif;
+	font-weight: 200;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
