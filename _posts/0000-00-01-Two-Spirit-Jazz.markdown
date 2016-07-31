@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 0000-00-01
+date: 2016-01-01
 img: tsj.png
 alt: image-alt
 project-date: April 2014
