@@ -76,8 +76,10 @@ $.ajax({
 });
 
 function getFormSubmitURL(){
-	btoa("contact@cascadia.ag")
-	var base64_email = "eW91ckBlbWFpbC5jb20";
+	/* btoa("your@email.com");
+	remember, you don't want to leave your email anywhere in your code
+	so don't forget to erase it later */
+	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
 	return "https://formspree.io/" + atob(base64_email);
 }
 
