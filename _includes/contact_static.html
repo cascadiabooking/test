@@ -45,6 +45,14 @@
 					</div>
 				</form>
                 <script>
+				function getFormSubmitURL(){
+	/* btoa("your@email.com");
+	remember, you don't want to leave your email anywhere in your code
+	so don't forget to erase it later */
+	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
+	return "https://formspree.io/" + atob(base64_email);
+}
+
 				var $contactForm = $("#contact-form"),
 	$submitButton = $contactForm.find('[type="submit"]');
 
@@ -74,14 +82,6 @@ $.ajax({
 		console.log("Something went wrong. Try again.");
 	}
 });
-
-function getFormSubmitURL(){
-	/* btoa("your@email.com");
-	remember, you don't want to leave your email anywhere in your code
-	so don't forget to erase it later */
-	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
-	return "https://formspree.io/" + atob(base64_email);
-}
 
 				</script>
 			</div>
