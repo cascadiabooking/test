@@ -8,7 +8,7 @@ function showAlert($container, $alert){
 }
 
 function submitContactForm($contactForm){
-	var $alertContainer = $(".page-contact--alert-container"),
+	var $alertContainer = $(".row-alert-container"),
 			$submitButton = $contactForm.find('[type="submit"]');
 
 	$.ajax({
