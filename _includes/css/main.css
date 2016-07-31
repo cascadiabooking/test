@@ -24,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #000;
+    color: {{ site.color.primary }};
 }
 
 h1,
@@ -94,7 +94,7 @@ header {
     text-align: center;
     color: #fff;
     min-height: 100vh;
-    background: #{{ site.color.primary }};
+    background: #000;
 }
 
 header .container {
