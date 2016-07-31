@@ -92,7 +92,7 @@ function submitContactForm($contactForm){
 			$submitButton = $contactForm.find('[type="submit"]');
 
 	$.ajax({
-		url: contact2@cascadia.ag,
+		url: "//formspree.io/contact2@cascadia.ag",
 		method: "POST",
 		data: $contactForm.serialize(),
 		dataType: "json",
