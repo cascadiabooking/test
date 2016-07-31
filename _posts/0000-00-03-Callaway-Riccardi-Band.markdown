@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-15
+date: 0000-00-03
 img: thr.png
 alt: image-alt
 project-date: April 2014
