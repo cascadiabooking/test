@@ -9,7 +9,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<form  id="contactForm" novalidate>
+				<form  action="//formspree.io/contact@cascadia.ag" method="POST" name="sentMessage" id="contactForm" novalidate>
                 <input type="hidden" name="_format" value="plain" />
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
@@ -44,46 +44,6 @@
 						</div>
 					</div>
 				</form>
-                <script>
-				function getFormSubmitURL(){
-	/* btoa("your@email.com");
-	remember, you don't want to leave your email anywhere in your code
-	so don't forget to erase it later */
-	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
-	return "https://formspree.io/" + atob(base64_email);
-}
-
-				var $contactForm = $("#contact-form"),
-	$submitButton = $contactForm.find('[type="submit"]');
-
-$.ajax({
-	url: getFormSubmitURL(),
-	method: "POST",
-	data: $contactForm.serialize(),
-	dataType: "json",
-	beforeSend: function(){
-		/* Disable the submit button to prevent multiple submissions
-		Tell the user that the form is sending */
-		$submitButton.attr("disabled", true);
-		console.log("Sending message...");
-	},
-	success: function(data){
-		/* Enable the submit button
-		Tell the user that their message was sent
-		Clear all the form fields */
-		$submitButton.attr("disabled", false);
-		console.log("Message sent.");
-		$contactForm.trigger("reset");
-	},
-	error: function(err){
-		/* Enable the submit button
-		Tell the user that the message failed to send */
-		$submitButton.attr("disabled", false);
-		console.log("Something went wrong. Try again.");
-	}
-});
-
-				</script>
 			</div>
 		</div>
 	</div>
