@@ -1,30 +1,6 @@
-$(function() {
-
-    $("input,textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
-        },
-
-        filter: function() {
-            return $(this).is(":visible");
-        },
-    });
-
-    $("a[data-toggle=\"tab\"]").click(function(e) {
-        e.preventDefault();
-        $(this).tab("show");
-    });
-});
-
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
-    $('#success').html('');
-});
-
 function getFormSubmitURL(){
-	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
-	return "https://formspree.io/" + atob(base64_email);
+	var base64_email = "cmFuc2FuMzJAeWFob28uY29t";
+	return "//formspree.io/" + atob(base64_email);
 }
 
 function showAlert($container, $alert){
@@ -55,6 +31,3 @@ function submitContactForm($contactForm){
 		}
 	});
 };
-
-
-
