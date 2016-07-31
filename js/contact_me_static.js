@@ -22,10 +22,6 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 
-function getFormSubmitURL(){
-	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
-	return "https://formspree.io/" + atob(base64_email);
-}
 
 function showAlert($container, $alert){
 	$container.empty().append($alert);
@@ -36,7 +32,7 @@ function submitContactForm($contactForm){
 			$submitButton = $contactForm.find('[type="submit"]');
 
 	$.ajax({
-		url: getFormSubmitURL(),
+		url: "https//formspree.io/contact2@cascadia.ag",
 		method: "POST",
 		data: $contactForm.serialize(),
 		dataType: "json",
