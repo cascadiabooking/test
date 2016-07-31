@@ -23,7 +23,7 @@ $('#name').focus(function() {
 });
 
 function getFormSubmitURL(){
-	var base64_email = "cmFuc2FuMzJAeWFob28uY29t";
+	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
 	return "https://formspree.io/" + atob(base64_email);
 }
 
