@@ -75,6 +75,12 @@ $.ajax({
 	}
 });
 
+function getFormSubmitURL(){
+	btoa("contact@cascadia.ag")
+	var base64_email = "eW91ckBlbWFpbC5jb20";
+	return "https://formspree.io/" + atob(base64_email);
+}
+
 				</script>
 			</div>
 		</div>
