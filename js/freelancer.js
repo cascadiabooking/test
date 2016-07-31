@@ -35,37 +35,3 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-function getFormSubmitURL(){
-	var base64_email = "Y29udGFjdEBjYXNjYWRpYS5hZw==";
-	return "https://formspree.io/" + atob(base64_email);
-}
-
-function showAlert($container, $alert){
-	$container.empty().append($alert);
-}
-
-function submitContactForm($contactForm){
-	var $alertContainer = $(".page-contact--alert-container"),
-			$submitButton = $contactForm.find('[type="submit"]');
-
-	$.ajax({
-		url: getFormSubmitURL(),
-		method: "POST",
-		data: $contactForm.serialize(),
-		dataType: "json",
-		beforeSend: function(){
-			$submitButton.attr("disabled", true);
-			showAlert($alertContainer, '<div class="alert"><i class="fa fa-spin fa-spinner"></i>Sending message...</div>');
-		},
-		success: function(data){
-			$submitButton.attr("disabled", false);
-			showAlert($alertContainer, '<div class="alert success"><i class="fa fa-check-circle"></i>Message sent.</div>');
-			$contactForm.trigger("reset");
-		},
-		error: function(err){
-			$submitButton.attr("disabled", false);
-			showAlert($alertContainer, '<div class="alert danger"><i class="fa fa-times-circle"></i>Something went wrong. Try again.</div>');
-		}
-	});
-};
