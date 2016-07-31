@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-date: 0000-00-02
+date: 2016-01-02
 img: nk.png
 alt: image-alt
 project-date: April 2014
