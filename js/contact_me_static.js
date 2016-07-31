@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function getFormSubmitURL(){
 	var base64_email = "cmFuc2FuMzJAeWFob28uY29t";
 	return "//formspree.io/" + atob(base64_email);
